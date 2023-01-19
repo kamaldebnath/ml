@@ -16,3 +16,6 @@ st.text(f'Price table of {stock} from {start_date} to {end_date} :')
 data = get_stock_price(stock, start_date, end_date)
 
 st.table(data)
+
+
+# data process
